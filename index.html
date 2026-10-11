@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151a19">
+  <meta name="description" content="Taller de bicicletas y refacciones El Cavernícola en la Supermanzana 232 de Cancún. Consulta reparaciones, mantenimiento y disponibilidad de piezas por teléfono o WhatsApp.">
+  <meta name="robots" content="index,follow">
+  <title>El Cavernícola | Taller de bicicletas y refacciones en Cancún</title>
+  <style>
+    :root{--ink:#151a19;--ink2:#202725;--paper:#f6f5ef;--white:#fff;--muted:#aeb8b1;--lime:#c9f36b;--orange:#ff8b4d;--line:#dfe3da;--max:1160px;}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .topbar{background:var(--lime);color:#172016;text-align:center;padding:9px 16px;font-size:.83rem;font-weight:800;letter-spacing:.025em}
+    header{background:var(--ink);color:var(--white);position:relative;overflow:hidden}
+    nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;line-height:1.05;letter-spacing:-.03em}
+    .brandmark{width:44px;height:44px;border-radius:13px;background:var(--lime);display:grid;place-items:center;color:var(--ink);flex-shrink:0}
+    .brand small{display:block;font-size:.66rem;color:var(--muted);font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-top:5px}
+    .navlinks{display:flex;align-items:center;gap:24px;font-size:.92rem;color:#e7ece7}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;border-radius:999px;background:var(--lime);color:#142012;text-decoration:none;font-weight:850;border:2px solid var(--lime);transition:transform .15s ease,background .15s ease}
+    .nav-cta{font-size:.9rem;padding:11px 16px;white-space:nowrap}
+    .btn:hover,.nav-cta:hover{transform:translateY(-2px);background:#d8ff8b}
+    .btn.secondary{background:transparent;border-color:#68736a;color:var(--white)}
+    .btn.secondary:hover{border-color:var(--lime);color:var(--lime);background:transparent}
+    .hero{display:grid;grid-template-columns:1.03fr .97fr;gap:44px;align-items:center;padding:62px 0 76px;min-height:500px;position:relative}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--lime);font-size:.77rem;text-transform:uppercase;letter-spacing:.16em;font-weight:900}
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--orange);display:inline-block}
+    h1{font-size:clamp(2.6rem,5vw,4.65rem);line-height:.99;letter-spacing:-.065em;margin:19px 0 22px;max-width:650px}
+    h1 em{font-style:normal;color:var(--lime)}
+    .hero p{font-size:1.1rem;color:#d3dbd4;max-width:560px;margin:0 0 28px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .microcopy{font-size:.8rem!important;color:#98a49b!important;margin-top:15px!important;margin-bottom:0!important}
+    .hero-art{position:relative;min-height:350px;display:grid;place-items:center}
+    .hero-art:before{content:"";position:absolute;width:330px;height:330px;border:1px solid #49554a;border-radius:50%;box-shadow:0 0 0 38px rgba(201,243,107,.035),0 0 0 76px rgba(201,243,107,.025)}
+    .art-card{position:relative;width:min(100%,450px);min-height:340px;border-radius:28px;background:linear-gradient(145deg,#303b35,#1c2420);border:1px solid #465149;padding:24px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 30px 70px #0004;overflow:hidden}
+    .art-card:after{content:"";position:absolute;width:220px;height:220px;background:var(--lime);filter:blur(85px);opacity:.15;right:-50px;top:-55px}
+    .art-label{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:start;color:#dce7dd;font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+    .bike-svg{width:100%;max-width:405px;align-self:center;position:relative;z-index:1;margin:8px 0}
+    .art-foot{position:relative;z-index:1;display:flex;justify-content:space-between;gap:12px;color:#dce7dd;font-size:.82rem;font-weight:750}
+    .art-foot span:last-child{color:var(--lime)}
+    .truststrip{background:#242c27;color:#e9eee8;border-top:1px solid #364038;border-bottom:1px solid #364038}
+    .trustinner{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:20px 0}
+    .trustitem{display:flex;gap:12px;align-items:center;justify-content:center;font-weight:750;font-size:.92rem}
+    .trusticon{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#354137;color:var(--lime);flex-shrink:0}
+    section{padding:78px 0}
+    .section-head{max-width:700px;margin-bottom:34px}
+    .kicker{font-size:.76rem;text-transform:uppercase;letter-spacing:.17em;color:#57732a;font-weight:900}
+    h2{font-size:clamp(2rem,3.6vw,3.15rem);line-height:1.04;letter-spacing:-.055em;margin:12px 0 15px}
+    .section-head p{font-size:1.04rem;color:#5a645c;margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .service{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:27px;min-height:235px;box-shadow:0 9px 30px #17201608}
+    .service-icon{width:50px;height:50px;border-radius:15px;background:#edf6d7;color:#30451b;display:grid;place-items:center;margin-bottom:20px}
+    .service h3{font-size:1.2rem;margin:0 0 9px;letter-spacing:-.025em}
+    .service p{color:#616b62;margin:0;font-size:.95rem}
+    .service .smalllink{display:inline-block;margin-top:17px;color:#45611e;font-weight:850;font-size:.9rem}
+    .how{background:#e9eee4}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:step}
+    .step{padding:24px;border-top:2px solid #cad3c6;counter-increment:step}
+    .step:before{content:"0" counter(step);display:block;color:#57732a;font-size:.83rem;font-weight:950;letter-spacing:.12em;margin-bottom:25px}
+    .step h3{font-size:1.15rem;margin:0 0 8px}
+    .step p{color:#5a645c;margin:0}
+    .cta-band{background:var(--lime);padding:35px;border-radius:26px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .cta-band h2{font-size:clamp(1.7rem,3vw,2.6rem);margin:0 0 8px;max-width:650px}
+    .cta-band p{margin:0;color:#34412b}
+    .btn.dark{background:var(--ink);color:white;border-color:var(--ink);white-space:nowrap}
+    .btn.dark:hover{background:#2f3a32}
+    .visit{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch}
+    .visit-card{background:var(--ink);color:white;border-radius:25px;padding:32px}
+    .visit-card h2{margin-top:10px}
+    .visit-card p{color:#ccd5cd}
+    .detail{display:flex;gap:13px;align-items:flex-start;margin:22px 0}
+    .detail .trusticon{background:#303c32}
+    .detail strong{display:block;margin-bottom:3px}
+    .detail span{color:#c4cec5;font-size:.93rem}
+    .visit-map{background:#e6ebdf;border:1px solid #d8dfd3;border-radius:25px;min-height:400px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}
+    .map-illustration{width:100%;height:235px;position:relative;margin:4px 0 22px;background:#e0e7d7;border-radius:18px;overflow:hidden}
+    .road{position:absolute;background:#c4cec0;border:1px solid #b4c0b0;border-radius:99px;transform:rotate(-25deg)}
+    .road.r1{width:130%;height:30px;left:-20px;top:65px}.road.r2{width:125%;height:28px;left:-20px;top:155px;transform:rotate(24deg)}.road.r3{height:130%;width:26px;left:58%;top:-20px;transform:rotate(20deg)}
+    .pin{position:absolute;left:51%;top:43%;transform:translate(-50%,-50%);z-index:2;width:48px;height:48px;border-radius:50% 50% 50% 6px;transform-origin:center;rotate:-45deg;background:var(--ink);display:grid;place-items:center;box-shadow:0 5px 15px #0002}
+    .pin svg{rotate:45deg}
+        /* ESTILOS DE LA NUEVA GALERÍA DE FOTOS */
+    .gallery-section { background: var(--white); border-top: 1px solid var(--line); }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 30px; }
+    .gallery-item { position: relative; border-radius: 18px; overflow: hidden; height: 250px; box-shadow: 0 4px 15px #17201605; border: 1px solid var(--line); }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(21,26,25,0.85)); color: var(--white); padding: 15px; font-size: 0.9rem; font-weight: 700; }
+    footer{background:var(--ink);color:var(--white);text-align:center;padding:30px 0;font-size:.9rem;border-top:1px solid #242c27}
+    @media (max-width:768px){
+      .hero,.services,.steps,.visit{grid-template-columns:1fr;gap:24px}
+      .cta-band{flex-direction:column;align-items:initial;text-align:center}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BicycleRepairShop",
+    "name": "Taller de Bicicletas y Refacciones El Cavernícola",
+    "telephone": "+529981804391",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Niños Héroes, Supermanzana 232",
+      "addressLocality": "Cancún",
+      "addressRegion": "Quintana Roo",
+      "postalCode": "77510",
+      "addressCountry": "MX"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="topbar">Cancún · Supermanzana 232 | Lunes a sábado, 9:00–17:00</div>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a href="#" class="brand">
+          <div class="brandmark"><strong>C</strong></div>
+          <div>EL CAVERNÍCOLA<small>Taller & refacciones</small></div>
+        </a>
+                <div class="navlinks">
+          <a href="#servicios">Servicios</a>
+          <a href="#como">Cómo funciona</a>
+          <a href="#ubicacion">Ubicación</a>
+          <a href="https://www.facebook.com/Cavernicolla" target="_blank" rel="noopener" aria-label="Visítanos en Facebook" style="display: inline-flex; align-items: center; gap: 5px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
+            Facebook
+          </a>
+        </div>
+        <!-- Enlace en el Menú de Navegación -->
+        <a href="https://wa.me/529981804391" target="_blank" rel="noopener" class="nav-cta">WhatsApp ↗</a>
+      </nav>
+      <div class="hero">
+        <div>
+          <div class="eyebrow"><span class="dot"></span>Tu bici, lista para rodar</div>
+  <main>
+    <section id="servicios">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">En qué podemos orientarte</div>
+          <h2>Soluciones para seguir rodando</h2>
+          <p>La reparación, las piezas disponibles y el precio se confirman caso por caso en el taller.</p>
+        </div>
+                <div class="services">
+          <!-- Servicio 1: Reparación -->
+          <article class="service">
+            <div class="service-icon">🛠</div>
+            <h3>Reparación de bicicletas</h3>
+            <p>Describe la falla, el tipo de bicicleta y cuándo comenzó para orientarte si requiere revisión.</p>
+            <a href="https://wa.me/529981804391" target="_blank" rel="noopener" class="smalllink">Consultar reparación ↗</a>
+          </article>
+          
+          <!-- Servicio 2: Mantenimiento -->
+          <article class="service">
+            <div class="service-icon">⚙</div>
+            <h3>Mantenimiento y ajustes</h3>
+            <p>Pregunta por una revisión integral para detectar fallas ocultas y prolongar la vida de tu bici.</p>
+            <a href="https://wa.me/529981804391" target="_blank" rel="noopener" class="smalllink">Consultar mantenimiento ↗</a>
+          </article>
+          
+          <!-- Servicio 3: Refacciones -->
+          <article class="service">
+            <div class="service-icon">📦</div>
+            <h3>Refacciones para bicicleta</h3>
+            <p>Comparte una foto de la pieza rota o modelo. Confirma existencias antes de desplazarte.</p>
+            <a href="https://wa.me/529981804391" target="_blank" rel="noopener" class="smalllink">Consultar una pieza ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="como" class="how">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Rápido y claro</div>
+          <h2>Antes de venir, hagamos contacto</h2>
+          <p>Con unos datos básicos podemos saber mejor cómo ayudarte y evitar viajes innecesarios.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <h3>Cuéntanos qué sucede</h3>
+            <p>Indica la marca o tipo de bicicleta, describe la falla y adjunta una foto o video corto.</p>
+          </div>
+          <div class="step">
+            <h3>Confirma disponibilidad</h3>
+            <p>Pregunta si podemos revisar tu caso en ese momento y si tenemos la refacción lista.</p>
+          </div>
+          <div class="step">
+            <h3>Acude al taller</h3>
+            <p>Antes de autorizar cualquier reparación, confirma costos estimados y el tiempo final de entrega.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>¿Qué necesita tu bicicleta?</h2>
+            <p>Escríbenos directamente y explícanos la falla o la pieza que estás buscando.</p>
+          </div>
+          <!-- Botón Principal en la sección Hero -->
+          <div class="actions">
+            <a href="https://wa.me" target="_blank" rel="noopener" class="btn">Cuéntanos qué falla ↗</a>
+            <a href="#ubicacion" class="btn secondary">Cómo llegar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion">
+      <div class="wrap">
+        <div class="visit">
+          <div class="visit-card">
+            <div class="kicker" style="color:var(--lime)">Estamos en Cancún</div>
+            <h2>Ven al taller en la SM 232</h2>
+            <p>Consulta primero por mensaje de texto para confirmar que estemos disponibles.</p>
+            <address>
+              <div class="detail">
+                <div class="trusticon">📍</div>
+                <div><strong>Dirección</strong><span>Av. Niños Héroes, Supermanzana 232<br>77510 Cancún, Quintana Roo</span></div>
+              </div>
+              <div class="detail">
+                <div class="trusticon">🕒</div>
+                <div><strong>Horario publicado</strong><span>Lunes a sábado: 9:00–17:00<br>Domingo: Cerrado</span></div>
+              </div>
+              <div class="detail">
+                <div class="trusticon">📞</div>
+                <div><strong>Teléfono</strong><span><a href="tel:9981804391" style="color:var(--lime)">998 180 4391</a></span></div>
+              </div>
+              <div class="detail">
+                <div class="trusticon" style="background: #1877f2; color: white;">f</div>
+                <div>
+                <strong>Redes Sociales</strong>
+                <span><a href="https://www.facebook.com/Cavernicolla" target="_blank" rel="noopener" style="color: var(--lime); font-weight: 700; text-decoration: underline;">Siguenos en Facebook ↗</a></span>
+              </div>
+              </div>
+            </address>
+          </div>
+                              <!-- CONTENEDOR DEL MAPA INTEGRADO CON TU CÓDIGO REAL -->
+          <div class="visit-map" style="display: flex; flex-direction: column; gap: 15px; height: 100%;">
+            <!-- Tu iframe oficial adaptado al diseño fluido -->
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d232.51732458399692!2d-86.8476453!3d21.1811447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2ce10a4a5825%3A0x5db312310948d8c!2sTaller%20de%20Bicicletas%20y%20Refacciones%20El%20Cavernicola!5e0!3m2!1sfr!2smx!4v1791659188537!5m2!1sfr!2smx" 
+              width="100%" 
+              height="300" 
+              style="border:0; border-radius:18px; background:#e0e7d7;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+            
+            <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top: auto;">
+              <strong style="color: var(--ink);">Taller El Cavernícola</strong>
+              <a href="https://maps.app.goo.gl/qL3Ypqk4QxUgoxom7" 
+                 class="btn" 
+                 style="font-size:0.85rem; padding:8px 14px;" 
+                 target="_blank" 
+                 rel="noopener">
+                Abrir en la App ↗
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
+        <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>¿Qué necesita tu bicicleta?</h2>
+            <p>Escríbenos directamente y explícanos la falla o la pieza que estás buscando.</p>
+          </div>
+          <a href="https://wa.me/521234567890" target="_blank" rel="noopener" class="btn dark">Enviar mensaje ↗</a>
+        </div>
+      </div>
+    </section>
+        <!-- NUEVA SECCIÓN: GALERÍA DE FOTOS DEL TALLER -->
+    <section id="galeria" class="gallery-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Instalaciones y Refacciones</div>
+          <h2>El taller por dentro</h2>
+          <p>Echa un vistazo a nuestro inventario de refacciones y al área de servicio donde dejamos tu bicicleta como nueva.</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <!-- Foto 1: Fachada o Área de Trabajo -->
+          <div class="gallery-item">
+            <img src="img/taller-1.webp" alt="Área de servicio mecánico El Cavernícola" loading="lazy">
+            <div class="gallery-caption">Área de Servicio Técnico</div>
+          </div>
+
+          <!-- Foto 2: Inventario de refacciones -->
+          <div class="gallery-item">
+            <img src="img/taller-2.webp" alt="Refacciones y piezas para bicicleta en Cancún" loading="lazy">
+            <div class="gallery-caption">Amplio surtido de Refacciones</div>
+          </div>
+
+          <!-- Foto 3: Bicicleta lista o mantenimiento -->
+          <div class="gallery-item">
+            <img src="img/taller-3.webp" alt="Mantenimiento y ajustes de bicicletas" loading="lazy">
+            <div class="gallery-caption">Garantía en cada rodada</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 Taller de Bicicletas y Refacciones El Cavernícola · Cancún, Q. Roo.</p>
+    </div>
+  </footer>
+</body>
+</html>
